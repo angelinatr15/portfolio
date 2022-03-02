@@ -18,21 +18,21 @@ export default function ContainerBlock({ children, ...customMeta }) {
     <div>
       <Head>
         <title>{meta.title}</title>
-        <meta name='robots' content='follow, index' />
-        <meta content={meta.description} name='description' />
+        <meta name="robots" content="follow, index" />
+        <meta content={meta.description} name="description" />
         <meta
-          property='og:url'
-          content={`https://portfolio-alvin-nguyen.vercel.app${router.asPath}`}
+          property="og:url"
+          content={`https://portfolio-55n8kc7aj-angelinatr15.vercel.app/${router.asPath}`}
         />
         <link
-          rel='canonical'
-          href={`https://portfolio-alvin-nguyen.vercel.app${router.asPath}`}
+          rel="canonical"
+          href={`https://portfolio-55n8kc7aj-angelinatr15.vercel.app/${router.asPath}`}
         />
         {meta.date && (
-          <meta property='article:published_time' content={meta.date} />
+          <meta property="article:published_time" content={meta.date} />
         )}
       </Head>
-      <main className='dark:bg-gray-800 w-full'>
+      <main className="dark:bg-gray-800 w-full">
         <Navbar />
         <div>{children}</div>
         <Footer />

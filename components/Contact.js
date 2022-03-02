@@ -22,7 +22,7 @@ export default function Contact() {
               </h1>
             </header>
             <div className="icons-container inline-flex flex-col my-20">
-              <div className="flex flex-row items-center space-x-6 rounded-md border bg-gray-800 border-[#02044A] hover:bg-gray-400 p-4">
+              <div className="flex flex-row items-center space-x-6 rounded-md border bg-gray-800 border-[#02044A] hover:bg-gray-400 p-4 m-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -40,7 +40,7 @@ export default function Contact() {
                   {userData.phone}
                 </p>
               </div>
-              <div className="flex flex-row items-center space-x-6 rounded-md border border-[#02044A] bg-gray-800 hover:bg-gray-400 p-4">
+              <div className="flex flex-row items-center space-x-6 rounded-md border border-[#02044A] bg-gray-800 hover:bg-gray-400 p-4 m-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -55,7 +55,7 @@ export default function Contact() {
                   {userData.email}
                 </p>
               </div>
-              <div className="flex flex-row items-center space-x-6 rounded-md border border-[#02044A] bg-gray-800 hover:bg-gray-400 p-4">
+              <div className="flex flex-row items-center space-x-6 rounded-md border border-[#02044A] bg-gray-800 hover:bg-gray-400 p-4 m-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
